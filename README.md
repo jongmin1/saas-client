@@ -16,7 +16,7 @@
 ![image](https://github.com/user-attachments/assets/ddf7b516-25e9-44df-af4e-5e44a0a3ae3d)
 
 [프로필 클릭 시 탭]
-![image](https://github.com/user-attachments/assets/51f081f7-5c12-4582-8720-b73ef014cdd4)
+![image (14)](https://github.com/user-attachments/assets/e1b44dcd-5fd1-40a0-860c-17497af4468d)
 
 [profile 모달]
 ![image](https://github.com/user-attachments/assets/4062753b-2c11-44b3-80ba-05a71f3ded23)
