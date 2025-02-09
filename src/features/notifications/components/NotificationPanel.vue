@@ -29,7 +29,7 @@
 </template>
 
 <script lang="ts" setup>
-import CardComponent from "@/components/molecules/CardComponent.vue";
+import CardComponent from "@common/components/molecules/CardComponent.vue";
 
 interface Notification {
   message: string;

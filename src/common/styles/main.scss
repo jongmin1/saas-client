@@ -1,99 +1,22 @@
-/* 트랜지션 */
-.list {
-  &-move,
-  &-enter-active,
-  &-leave-active {
-    transition: all 0.5s ease;
-  }
+@use 'variables';
+@use 'mixins';
+@use 'reset';
+@use 'typography';
 
-  &-enter-from,
-  &-leave-to {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-
-  &-leave-active {
-    position: absolute;
-    width: 100%;
-    pointer-events: none;
-  }
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.875rem;
+    opacity: 1;
+    overflow-y: scroll;
+    margin: 0;
 }
 
-/* 컨테이너 스타일 */
-.container {
-  &__title {
-    margin-bottom: 1rem;
-  }
+// a {
+//     font-family: 'Poppins', sans-serif;
+//     cursor: pointer;
+//     text-decoration: none;
+// }
 
-  &__content {
-    position: relative;
-    max-height: 30vh;
-    overflow-y: auto;
-    overflow-x: hidden;
-    width: 100%;
-
-    &::-webkit-scrollbar {
-      width: 7px;
-
-      &-track {
-        background: #2c2f33;
-        border-radius: 10px;
-      }
-
-      &-thumb {
-        background-color: #9f9fa0;
-        border-radius: 10px;
-        border: 2px solid #2c2f33;
-
-        &:hover {
-          background-color: #5b6eae;
-        }
-      }
-    }
-  }
-
-  &__content__component {
-    display: flex;
-    align-items: center;
-    margin: 1.3rem 0;
-
-    &--name {
-      font-size: 0.7rem;
-      text-align: left;
-
-      .environment {
-        color: #a0a0a0;
-        margin-left: 0.3rem;
-        font-size: 0.6rem;
-      }
-
-      .team {
-        display: block;
-        color: #8a8a8a;
-        font-size: 0.6rem;
-      }
-    }
-
-    &--bar {
-      &-container {
-        flex: 2 1 auto;
-        background-color: #e0e0e0;
-        border-radius: 10px;
-        overflow: hidden;
-      }
-
-      &-fill {
-        height: 1.5rem;
-        border-radius: 10px;
-        transform-origin: left;
-      }
-    }
-
-    &--value {
-      flex: 0 1 20%;
-      font-size: 0.9rem;
-      text-align: right;
-      white-space: nowrap;
-    }
-  }
-} 
+// li {
+//     list-style: none;
+// }
