@@ -1,0 +1,22 @@
+@use 'variables';
+@use 'mixins';
+@use 'reset';
+@use 'typography';
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.875rem;
+    opacity: 1;
+    overflow-y: scroll;
+    margin: 0;
+}
+
+// a {
+//     font-family: 'Poppins', sans-serif;
+//     cursor: pointer;
+//     text-decoration: none;
+// }
+
+// li {
+//     list-style: none;
+// }
